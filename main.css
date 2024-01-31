@@ -1,0 +1,76 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.about{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 4px #888888;
+}
+
+.button{
+    background-color: rgb(255, 183, 0);
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    text-decoration: none;
+}
+
+.contact{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.content{
+    max-width: 400px;
+}
+
+.container{
+    background-image: url(/Users/jakrachaikummaraka/Desktop/MyResume/images/hacker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    min-height: 100vh;
+    padding: 120px;
+}
+
+@media screen and(max-width: 768px){
+ .container{
+    padding: 48px;
+ }
+}
+
+.contact-item{
+    margin-bottom: 10px;
+}
+
+.contact-icon{
+    margin-right: 12px;
+    width: 12px;
+}
+
+.job{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media screen and(max-width: 768px){
+    .name{
+       font-size: 36px;
+    }
+   }
